@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel Suites" parallel="classes">
+  
+  <test name="Test">
+   <parameter name="browser"  value="GC"/>  
+    <classes>
+      <class name="abcpack.LinksDemo"/>
+      <class name="abcpack.WebTableDemo"/>
+      <class name="abcpack.WebElementsDemo"/>
+     </classes>
+  </test>
+  
+</suite>
